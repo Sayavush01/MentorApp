@@ -6,7 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 var path = window.location.pathname.split("/")[1];
-if (path = "") {
+if (path == "") {
 
     document.getElementById("home").classList.add("active");
 }
